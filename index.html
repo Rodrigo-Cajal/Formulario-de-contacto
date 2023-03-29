@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="icon" type="icon/svg" href="Fotos/logo.svg">
+    <title>Validación de formulario</title>
+</head>
+<body>
+    
+    <form action="contacto/contacto.php" method="POST" class="form">
+        <h1 class="form-titulo">Formulario de Contacto</h1>
+        <div class="form-row">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input id="nombre" name="nombre" type="text" class="form-input">
+        </div>
+
+        <div class="form-row">
+            <label for="email" class="form-label">Email</label>
+            <input id="email" name="email" type="text" class="form-input">
+        </div>
+
+        <div class="form-row">
+            <label for="celular" class="form-label">Celular</label>
+            <input id="celular" name="celular" type="text" class="form-input">
+        </div>
+
+        <div class="form-row">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea id="mensaje" name="Mensaje" class="form-textarea"></textarea>
+        </div>
+
+        <div class="form-button">
+            <button type="submit" class="button">Enviar</button>
+        </div>
+    </form>
+
+
+<script src="scripts.js"></script>
+</body>
+</html>
